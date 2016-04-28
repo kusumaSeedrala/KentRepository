@@ -20,9 +20,6 @@ public class Game {
 					input=a[ballthrow];
 					if(input<=10&&input>=0)
 						bowl.roll(input);
-					else if(input>10||input<0){
-							ballthrow--;
-							}
 						else if(input==10)
 							ballthrow++;
 				}
