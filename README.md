@@ -11,8 +11,6 @@ public class Game {
 		 	public static void main(String[] args) {
 				int input;
 				int ballthrow;
-				int frame;
-				int roll;
 				int[] a = {1,4,4,5,6,4,5,5,10,0,0,1,7,3,6,4,10,0,2,8,6};
 				Game bowl=new Game();
 				for(ballthrow=0;ballthrow<=20;ballthrow++)
